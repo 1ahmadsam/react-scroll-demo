@@ -1,12 +1,15 @@
 import './App.css';
-import { Link } from 'react-scroll';
+import { Link } from 'react-scroll'; // Use link component from react-scroll library
 function App() {
   return (
     <div className='app'>
-      <nav>
-        {/* <a href='#page1'>page 1</a>
+      <nav className='app__navbar'>
+        {/* 
+        OLD LINKS
+        <a href='#page1'>page 1</a>
         <a href='#page2'>page 2</a>
-        <a href='#page3'>page 3</a> */}
+        <a href='#page3'>page 3</a> 
+        */}
         <Link to='page1' smooth={true}>
           p1
         </Link>
